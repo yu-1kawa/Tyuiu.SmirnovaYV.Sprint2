@@ -7,7 +7,7 @@ namespace Tyuiu.SmirnovaYV.Sprint2.Task6.V10.Lib
         {
             if (n>1)
             {
-                return (n-1) + "." + m + "." + g;
+                return (n - 1).ToString("D2") + "." + m.ToString("D2") + "." + g;
             }
             else
             {
@@ -37,7 +37,7 @@ namespace Tyuiu.SmirnovaYV.Sprint2.Task6.V10.Lib
                 {
                     m = m - 1;
                 }
-                return n + "." + m + "." + g;
+                return n.ToString("D2") + "." + m.ToString("D2") + "." + g;
             }
 
         }
